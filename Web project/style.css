@@ -1,0 +1,40 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+#result {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+}
+
+.num{
+    background-color: #000;
+    color: aliceblue;
+
+}
+.Check{
+    background-color: darkgreen;
+    color: #000;
+}
+.dark{
+    background-color: darkgray;
+    color: white;
+    
+}
